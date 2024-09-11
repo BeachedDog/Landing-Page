@@ -1,0 +1,155 @@
+.head{
+    background-color: #1f2937; ;
+}
+.icon-dog{
+    width:40px;
+    margin-top: 4px;
+}
+
+.head-dog{
+    width:300px;
+    margin-bottom: 25px;
+    height:150px;
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-bottom: 4em;
+}
+
+nav{
+    display:flex;
+    gap:2em;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+a:hover{
+    color:rgb(31, 164, 221)
+}
+
+.subhead{
+    display:flex;
+    gap:10em;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.hero{
+    width:45%;
+    margin-bottom:5%
+}
+
+.text{
+    font-size: 12px;
+    color: #E5E7EB;
+    margin-top: -2em;
+    margin-bottom: 2px;
+}
+
+.button{
+    color:white;
+    background-color:rgb(4, 92, 244);
+    border-radius: 3px;
+    border:none;
+    padding:2px 8px;
+}
+
+.button:hover{
+    background-color: white;
+    color: rgb(4, 92, 244) ;
+}
+
+h3{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.information{
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    margin: 0 10%;
+    align-items: center;
+}
+
+.info-dog{
+    width:100px;
+    border:2px solid #3882F6;
+    border-radius: 5px;
+    height:100px
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:2em;
+
+}
+
+.subtext{
+    width:100px;
+    font-size: 10px;
+    text-align: center;
+    color:rgb(114, 114, 114)
+}
+
+.quote-box{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top:2em
+}
+
+.quote{
+    width:50%;
+    text-align: left;
+    margin: 0 23%;
+    font-size: 18px;
+    color:#1F2937
+}
+
+.quoter{
+    margin-top:-2px;
+    margin-left:61%;
+    color:#1F2937;
+    font-weight: bold;
+}
+.call-to-action{
+    padding:50px;
+}
+
+.action-container{
+    background-color: #3882F6;
+    border-radius: 4px;
+    width:60%;
+    margin-left: 17%;
+    display:flex;
+}
+
+.action-container-text{
+    color: #E5E7EB;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+.button:nth-child(2){
+    height:30%;
+    margin-top: 1.5em;
+    border:2px solid#E5E7EB;
+}
+
+.call-text-big{
+    margin-bottom:-1em
+}
+
+.call-text-small{
+    font-size: 12px;
+}
